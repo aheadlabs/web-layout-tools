@@ -1,0 +1,32 @@
+$test-height: 50px;
+$test-margin-bottom: 40px;
+
+div.responsive.test1{
+  background-color: pink;
+  height: $test-height;
+  margin-bottom: $test-margin-bottom;
+}
+
+div.responsive.test2{
+  background-color: #4ab866;
+  height: $test-height;
+  margin-bottom: $test-margin-bottom;
+}
+
+div.responsive.test3{
+  background-color: #69a8bb;
+  height: $test-height;
+  margin-bottom: $test-margin-bottom;
+}
+
+div.responsive.test4{
+  background-color: #f6e2ac;
+  height: $test-height;
+  margin-bottom: $test-margin-bottom;
+}
+
+div.responsive.test5{
+  background-color: #aaaaaa;
+  height: $test-height;
+  margin-bottom: $test-margin-bottom;
+}

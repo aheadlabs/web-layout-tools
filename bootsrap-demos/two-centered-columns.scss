@@ -1,0 +1,32 @@
+div.responsive.test0{
+    background-color: #a94442;
+    margin-bottom: $test-margin-bottom;
+    & > div.row{
+      & > div {
+        background-color: #0d66c2;
+        border: solid 1px black;
+        text-align: justify;
+        & > div.box{
+          background-color: #4ab866;
+          text-align: justify;
+          width: 400px;
+          &.box1{
+            color: yellow;
+            float: right;
+          }
+          &.box2{
+            color:orange;
+            float: left;
+          }
+          &.box1, &.box2 {
+            @include media-breakpoint-down(md) {
+              float: none;
+              color: white;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  
